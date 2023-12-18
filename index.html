@@ -14,6 +14,10 @@
       : document.location.href;
 
     document.body.appendChild(document.createTextNode(url));
+
+    const url2 = window.parent.location.href;
+
+    document.body.appendChild(document.createTextNode(url2));
     alert(url);
   </script>
 </body>
